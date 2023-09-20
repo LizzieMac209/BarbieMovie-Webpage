@@ -1,19 +1,50 @@
 header{
-  background-image:  linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../images/barbiemain.png");
-   background-repeat: no-repeat;
+  margin: 0 auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url("../images/barbiemain.png");
+  background-repeat: no-repeat;
   background-size: cover;
-  width: 1512px;
-height: 900px;
-flex-shrink: 0;
+  line-height: normal;
+  padding: 200px 0;
+  text-align: center;
+}
+  h1 {
+  color: #B31D65;
+  font-family: Lobster Two;
+  font-size: 128px;
+  font-style: italic;
+  font-weight: 500;
+  padding: 100px 0;
+  line-height: normal;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+ 
+}
+h2 {
+  font-family: Plus Jakarta Sans;
+  text-transform: uppercase;
+  color: #DDB5E5;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 4px;
 
+  margin: 0;
 }
 
-h1{
-  color:rgb(204, 52, 148);
-font-family: Lobster Two;
+.btn{
+  border-radius: 5px;
+background: var(--Pink, #DE78BD);
+padding: 10px 24px;
+align-items: flex-start;
+color: var(--Light, #FFF);
 text-align: center;
-font-size: 128px;
-font-style: italic;
-font-weight: 500;
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
 line-height: normal;
+letter-spacing: 3px;
+text-transform: uppercase;
+
 }
