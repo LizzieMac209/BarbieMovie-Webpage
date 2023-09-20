@@ -1,0 +1,19 @@
+header{
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../images/barbiemain.png");
+   background-repeat: no-repeat;
+  background-size: cover;
+  width: 1512px;
+height: 900px;
+flex-shrink: 0;
+
+}
+
+h1{
+  color:rgb(204, 52, 148);
+font-family: Lobster Two;
+text-align: center;
+font-size: 128px;
+font-style: italic;
+font-weight: 500;
+line-height: normal;
+}
