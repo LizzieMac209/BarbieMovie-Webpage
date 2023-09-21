@@ -1,15 +1,20 @@
-header{
-  margin: 0 auto;
+body{
+  background-color: #B21E65;
+}
+
+header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
     url("../images/barbiemain.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #b31d65;
+  background-size: 100%, 100%;
   line-height: normal;
-  padding: 200px 0;
+  padding: 150px 0;
   text-align: center;
+  border-radius: 8px;
 }
-  h1 {
-  color: #B31D65;
+h1 {
+  color: #b31d65;
   font-family: Lobster Two;
   font-size: 128px;
   font-style: italic;
@@ -17,34 +22,65 @@ header{
   padding: 100px 0;
   line-height: normal;
   text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
- 
 }
-h2 {
+h3 {
   font-family: Plus Jakarta Sans;
   text-transform: uppercase;
-  color: #DDB5E5;
-  font-size: 22px;
+  text-decoration: underline;
+  color: #ddb5e5;
+  font-size: 24px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
   letter-spacing: 4px;
-
   margin: 0;
 }
 
-.btn{
-  border-radius: 5px;
-background: var(--Pink, #DE78BD);
-padding: 10px 24px;
-align-items: flex-start;
-color: var(--Light, #FFF);
-text-align: center;
-font-family: Plus Jakarta Sans;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 3px;
-text-transform: uppercase;
-
+h2{
+  font-family:Plus Jakarta Sans;
+  text-align: center;
+  text-shadow:rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+  color: #ddb5e5;
+  font-size: 72px;
+  font-weight: bold;
+  letter-spacing: 4px;
 }
+.gossip-column h2{
+  margin-top: 50px;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+.btn {
+  border-radius: 5px;
+  background: var(--Pink, #de78bd);
+  padding: 10px 24px;
+  align-items: flex-start;
+  color: var(--Light, #fff);
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.trailers{
+  background-color: #1F167C;
+  background-size: cover;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    border-radius: 5px;
+}
+
+.video {
+        width: 100%;
+        border-radius: 8px;
+        box-shadow:rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+      }
+
+ .gossip-column{
+  margin:0;
+  border-radius:7px;
+  background-color: #FE2CA7;
+   padding:0 80px 0 80px;
+ }
